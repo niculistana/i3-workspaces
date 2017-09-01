@@ -1,0 +1,34 @@
+{
+    // stacked split container with 1 children
+    "layout": "stacked",
+    "percent": 0.5,
+    "type": "con",
+    "nodes": [
+        {
+            "name": "slack",
+            "type": "con",
+            "swallows": [
+                {
+                    "class": "^Slack$"
+                }
+            ]
+        }
+    ]
+}
+{
+    // stacked split container with 1 children
+    "layout": "stacked",
+    "percent": 0.5,
+    "type": "con",
+    "nodes": [
+        {
+            "name": "thunderbird",
+            "type": "con",
+            "swallows": [
+                {
+                    "class": "^Thunderbird$"
+                }
+            ]
+        }
+    ]
+}
